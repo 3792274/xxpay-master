@@ -1,0 +1,483 @@
+2017-12-24 20:47:25.912  INFO 109604 --- [main] c.a.dubbo.common.logger.LoggerFactory    : using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2017-12-24 20:47:25.919  INFO 109604 --- [main] org.xxpay.dubbo.service.PayServiceTest   : Starting PayServiceTest on Haier with PID 109604 (started by 3792274 in F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service)
+2017-12-24 20:47:25.919  INFO 109604 --- [main] org.xxpay.dubbo.service.PayServiceTest   : The following profiles are active: prod
+2017-12-24 20:47:25.950  INFO 109604 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2dfaea86: startup date [Sun Dec 24 20:47:25 CST 2017]; root of context hierarchy
+2017-12-24 20:47:27.503  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$517b7d41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:27.576  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'xxPayDubboServiceAppliaction' of type [org.xxpay.dubbo.XxPayDubboServiceAppliaction$$EnhancerBySpringCGLIB$$8882433b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:27.643  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'druidDataSourceConfig' of type [org.xxpay.dal.dao.plugin.DruidDataSourceConfig$$EnhancerBySpringCGLIB$$f98b087f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:28.926  INFO 109604 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2017-12-24 20:47:28.926  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:28.946  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$336f20a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.031  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.053  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.777  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.797  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.822  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$844fce71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.866  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.869  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchInfoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.875  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchInfoMapper' of type [com.sun.proxy.$Proxy58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.883  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payChannelMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.886  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payChannelMapper' of type [com.sun.proxy.$Proxy60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.893  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchNotifyMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.895  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchNotifyMapper' of type [com.sun.proxy.$Proxy61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.899  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payOrderMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.901  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payOrderMapper' of type [com.sun.proxy.$Proxy62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.941  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jms-org.springframework.boot.autoconfigure.jms.JmsProperties' of type [org.springframework.boot.autoconfigure.jms.JmsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.948  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jms.JmsAutoConfiguration$JmsTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jms.JmsAutoConfiguration$JmsTemplateConfiguration$$EnhancerBySpringCGLIB$$10953bb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.960  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jms.activemq.ActiveMQConnectionFactoryConfiguration' of type [org.springframework.boot.autoconfigure.jms.activemq.ActiveMQConnectionFactoryConfiguration$$EnhancerBySpringCGLIB$$2a572934] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:29.978  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.activemq-org.springframework.boot.autoconfigure.jms.activemq.ActiveMQProperties' of type [org.springframework.boot.autoconfigure.jms.activemq.ActiveMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.133  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jmsConnectionFactory' of type [org.apache.activemq.ActiveMQConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.181  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jmsTemplate' of type [org.springframework.jms.core.JmsTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.194  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mqConfig' of type [org.xxpay.dubbo.service.mq.MqConfig$$EnhancerBySpringCGLIB$$439dee3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.223  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchPayNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.227  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseService4PayOrder' of type [org.xxpay.dubbo.service.BaseService4PayOrder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.230  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4MchPayNotify' of type [org.xxpay.dubbo.service.mq.Mq4MchPayNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.236  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseNotify4MchPay' of type [org.xxpay.dubbo.service.BaseNotify4MchPay] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.244  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'refundOrderMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.246  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'refundOrderMapper' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.254  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchRefundNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.257  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseService4RefundOrder' of type [org.xxpay.dubbo.service.BaseService4RefundOrder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.259  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4MchRefundNotify' of type [org.xxpay.dubbo.service.mq.Mq4MchRefundNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.261  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseNotify4MchRefund' of type [org.xxpay.dubbo.service.BaseNotify4MchRefund] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.272  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transOrderMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.278  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transOrderMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.288  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchTransNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.291  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseService4TransOrder' of type [org.xxpay.dubbo.service.BaseService4TransOrder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.292  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4MchTransNotify' of type [org.xxpay.dubbo.service.mq.Mq4MchTransNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.294  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseNotify4MchTrans' of type [org.xxpay.dubbo.service.BaseNotify4MchTrans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.298  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseService' of type [org.xxpay.dubbo.service.BaseService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.307  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'alipayConfig' of type [org.xxpay.dubbo.service.channel.alipay.AlipayConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.315  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'wxPayProperties' of type [org.xxpay.dubbo.service.channel.wechat.WxPayProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.317  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4MchNotify' of type [org.xxpay.dubbo.service.mq.Mq4MchNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.324  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.330  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4PayNotify' of type [org.xxpay.dubbo.service.mq.Mq4PayNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.337  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'refundNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.374  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payChannel4WxServiceImpl' of type [org.xxpay.dubbo.service.impl.PayChannel4WxServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.684  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.dubbo-io.dubbo.springboot.DubboProperties' of type [io.dubbo.springboot.DubboProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.686  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.dubbo.springboot.DubboAutoConfiguration' of type [io.dubbo.springboot.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$bc261d86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.699  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestApplicationConfig' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.707  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestRegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.712  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestProtocolConfig' of type [com.alibaba.dubbo.config.ProtocolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:30.975  INFO 109604 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Export dubbo service org.xxpay.dubbo.api.service.IPayChannel4WxService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:30.977  INFO 109604 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Export dubbo service org.xxpay.dubbo.api.service.IPayChannel4WxService to url dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&dubbo=2.5.3&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:30.977  INFO 109604 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Register dubbo service org.xxpay.dubbo.api.service.IPayChannel4WxService url dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&dubbo=2.5.3&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0 to registry registry://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=xxpay4dubbo-service&dubbo=2.5.3&pid=109604&registry=zookeeper&timestamp=1514119650735, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:31.209  WARN 109604 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mq4RefundNotify': Unsatisfied dependency expressed through field 'payChannel4WxService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payChannel4WxServiceImpl' defined in file [F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service\target\classes\org\xxpay\dubbo\service\impl\PayChannel4WxServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+2017-12-24 20:47:31.214  INFO 109604 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2017-12-24 20:47:31.226  INFO 109604 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-12-24 20:47:31.242 ERROR 109604 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mq4RefundNotify': Unsatisfied dependency expressed through field 'payChannel4WxService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payChannel4WxServiceImpl' defined in file [F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service\target\classes\org\xxpay\dubbo\service\impl\PayChannel4WxServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) [spring-boot-test-autoconfigure-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payChannel4WxServiceImpl' defined in file [F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service\target\classes\org\xxpay\dubbo\service\impl\PayChannel4WxServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 43 common frames omitted
+Caused by: com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:289) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:195) ~[dubbo-2.5.3.jar:2.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 52 common frames omitted
+Caused by: com.alibaba.dubbo.remoting.RemotingException: Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.<init>(NettyServer.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287) ~[dubbo-2.5.3.jar:2.5.3]
+	... 70 common frames omitted
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:20880
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:303) ~[netty-3.2.5.Final.jar:na]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.doOpen(NettyServer.java:94) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:67) ~[dubbo-2.5.3.jar:2.5.3]
+	... 77 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_91]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.bind(NioServerSocketPipelineSink.java:148) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleServerSocket(NioServerSocketPipelineSink.java:100) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:74) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.bind(Channels.java:468) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.bind(AbstractChannel.java:192) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap$Binder.channelOpen(ServerBootstrap.java:348) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.fireChannelOpen(Channels.java:176) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:142) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:90) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:282) ~[netty-3.2.5.Final.jar:na]
+	... 79 common frames omitted
+
+2017-12-24 20:47:31.394  INFO 109604 --- [main] org.xxpay.dubbo.service.PayServiceTest   : Starting PayServiceTest on Haier with PID 109604 (started by 3792274 in F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service)
+2017-12-24 20:47:31.395  INFO 109604 --- [main] org.xxpay.dubbo.service.PayServiceTest   : The following profiles are active: prod
+2017-12-24 20:47:31.403  INFO 109604 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37af1f93: startup date [Sun Dec 24 20:47:31 CST 2017]; root of context hierarchy
+2017-12-24 20:47:32.164  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$517b7d41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.190  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'xxPayDubboServiceAppliaction' of type [org.xxpay.dubbo.XxPayDubboServiceAppliaction$$EnhancerBySpringCGLIB$$8882433b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.205  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'druidDataSourceConfig' of type [org.xxpay.dal.dao.plugin.DruidDataSourceConfig$$EnhancerBySpringCGLIB$$f98b087f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.502  INFO 109604 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2017-12-24 20:47:32.502  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.507  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$336f20a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.536  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.545  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.736  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.742  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.747  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$844fce71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.753  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.756  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchInfoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.758  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchInfoMapper' of type [com.sun.proxy.$Proxy58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.760  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payChannelMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.760  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payChannelMapper' of type [com.sun.proxy.$Proxy60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.762  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchNotifyMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.762  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchNotifyMapper' of type [com.sun.proxy.$Proxy61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.765  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payOrderMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.766  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payOrderMapper' of type [com.sun.proxy.$Proxy62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.773  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.jms-org.springframework.boot.autoconfigure.jms.JmsProperties' of type [org.springframework.boot.autoconfigure.jms.JmsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.776  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jms.JmsAutoConfiguration$JmsTemplateConfiguration' of type [org.springframework.boot.autoconfigure.jms.JmsAutoConfiguration$JmsTemplateConfiguration$$EnhancerBySpringCGLIB$$10953bb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.779  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jms.activemq.ActiveMQConnectionFactoryConfiguration' of type [org.springframework.boot.autoconfigure.jms.activemq.ActiveMQConnectionFactoryConfiguration$$EnhancerBySpringCGLIB$$2a572934] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.786  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.activemq-org.springframework.boot.autoconfigure.jms.activemq.ActiveMQProperties' of type [org.springframework.boot.autoconfigure.jms.activemq.ActiveMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.796  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jmsConnectionFactory' of type [org.apache.activemq.ActiveMQConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.801  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jmsTemplate' of type [org.springframework.jms.core.JmsTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.806  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mqConfig' of type [org.xxpay.dubbo.service.mq.MqConfig$$EnhancerBySpringCGLIB$$439dee3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.813  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchPayNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.817  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseService4PayOrder' of type [org.xxpay.dubbo.service.BaseService4PayOrder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.819  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4MchPayNotify' of type [org.xxpay.dubbo.service.mq.Mq4MchPayNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.820  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseNotify4MchPay' of type [org.xxpay.dubbo.service.BaseNotify4MchPay] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.823  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'refundOrderMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.823  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'refundOrderMapper' of type [com.sun.proxy.$Proxy65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.831  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchRefundNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.833  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseService4RefundOrder' of type [org.xxpay.dubbo.service.BaseService4RefundOrder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.834  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4MchRefundNotify' of type [org.xxpay.dubbo.service.mq.Mq4MchRefundNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.835  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseNotify4MchRefund' of type [org.xxpay.dubbo.service.BaseNotify4MchRefund] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.842  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transOrderMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.843  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transOrderMapper' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.846  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mchTransNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.849  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseService4TransOrder' of type [org.xxpay.dubbo.service.BaseService4TransOrder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.849  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4MchTransNotify' of type [org.xxpay.dubbo.service.mq.Mq4MchTransNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.850  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseNotify4MchTrans' of type [org.xxpay.dubbo.service.BaseNotify4MchTrans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.854  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'baseService' of type [org.xxpay.dubbo.service.BaseService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.860  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'alipayConfig' of type [org.xxpay.dubbo.service.channel.alipay.AlipayConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.863  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'wxPayProperties' of type [org.xxpay.dubbo.service.channel.wechat.WxPayProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.865  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4MchNotify' of type [org.xxpay.dubbo.service.mq.Mq4MchNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.868  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.870  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mq4PayNotify' of type [org.xxpay.dubbo.service.mq.Mq4PayNotify] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.874  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'refundNotifyQueue' of type [org.apache.activemq.command.ActiveMQQueue] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.877  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'payChannel4WxServiceImpl' of type [org.xxpay.dubbo.service.impl.PayChannel4WxServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.887  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.dubbo-io.dubbo.springboot.DubboProperties' of type [io.dubbo.springboot.DubboProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.888  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.dubbo.springboot.DubboAutoConfiguration' of type [io.dubbo.springboot.DubboAutoConfiguration$$EnhancerBySpringCGLIB$$bc261d86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.890  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestApplicationConfig' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.894  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestRegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.897  INFO 109604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'requestProtocolConfig' of type [com.alibaba.dubbo.config.ProtocolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-12-24 20:47:32.907  INFO 109604 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Export dubbo service org.xxpay.dubbo.api.service.IPayChannel4WxService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:32.907  INFO 109604 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Export dubbo service org.xxpay.dubbo.api.service.IPayChannel4WxService to url dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&dubbo=2.5.3&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119652905&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:32.911  INFO 109604 --- [main] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Register dubbo service org.xxpay.dubbo.api.service.IPayChannel4WxService url dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&dubbo=2.5.3&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119652905&version=1.0.0 to registry registry://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=xxpay4dubbo-service&dubbo=2.5.3&pid=109604&registry=zookeeper&timestamp=1514119652905, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:32.914  WARN 109604 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mq4RefundNotify': Unsatisfied dependency expressed through field 'payChannel4WxService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payChannel4WxServiceImpl' defined in file [F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service\target\classes\org\xxpay\dubbo\service\impl\PayChannel4WxServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119652905&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+2017-12-24 20:47:32.923  INFO 109604 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2017-12-24 20:47:32.931  INFO 109604 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-12-24 20:47:32.940 ERROR 109604 --- [main] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mq4RefundNotify': Unsatisfied dependency expressed through field 'payChannel4WxService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payChannel4WxServiceImpl' defined in file [F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service\target\classes\org\xxpay\dubbo\service\impl\PayChannel4WxServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119652905&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) [spring-boot-test-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.outputConditionEvaluationReport(SpringBootDependencyInjectionTestExecutionListener.java:54) [spring-boot-test-autoconfigure-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47) [spring-boot-test-autoconfigure-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payChannel4WxServiceImpl' defined in file [F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service\target\classes\org\xxpay\dubbo\service\impl\PayChannel4WxServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119652905&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 42 common frames omitted
+Caused by: com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119652905&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:289) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:195) ~[dubbo-2.5.3.jar:2.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 51 common frames omitted
+Caused by: com.alibaba.dubbo.remoting.RemotingException: Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.<init>(NettyServer.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287) ~[dubbo-2.5.3.jar:2.5.3]
+	... 69 common frames omitted
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:20880
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:303) ~[netty-3.2.5.Final.jar:na]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.doOpen(NettyServer.java:94) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:67) ~[dubbo-2.5.3.jar:2.5.3]
+	... 76 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_91]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.bind(NioServerSocketPipelineSink.java:148) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleServerSocket(NioServerSocketPipelineSink.java:100) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:74) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.bind(Channels.java:468) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.bind(AbstractChannel.java:192) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap$Binder.channelOpen(ServerBootstrap.java:348) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.fireChannelOpen(Channels.java:176) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:142) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:90) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:282) ~[netty-3.2.5.Final.jar:na]
+	... 78 common frames omitted
+
+2017-12-24 20:47:32.947 ERROR 109604 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4b53f538] to prepare test instance [org.xxpay.dubbo.service.PayServiceTest@76a4d6c]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:44) ~[spring-boot-test-autoconfigure-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mq4RefundNotify': Unsatisfied dependency expressed through field 'payChannel4WxService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payChannel4WxServiceImpl' defined in file [F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service\target\classes\org\xxpay\dubbo\service\impl\PayChannel4WxServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-1.5.6.RELEASE.jar:1.5.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'payChannel4WxServiceImpl' defined in file [F:\IntelliJ_IDEA\xxpay\xxpay4dubbo\xxpay4dubbo-service\target\classes\org\xxpay\dubbo\service\impl\PayChannel4WxServiceImpl.class]: Initialization of bean failed; nested exception is com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 43 common frames omitted
+Caused by: com.alibaba.dubbo.rpc.RpcException: Fail to start server(url: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119650769&version=1.0.0) Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:289) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.openServer(DubboProtocol.java:266) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.export(DubboProtocol.java:253) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:55) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:56) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.doLocalExport(RegistryProtocol.java:153) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.registry.integration.RegistryProtocol.export(RegistryProtocol.java:107) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper.export(ProtocolFilterWrapper.java:53) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.ProtocolListenerWrapper.export(ProtocolListenerWrapper.java:54) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.Protocol$Adpative.export(Protocol$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrlsFor1Protocol(ServiceConfig.java:485) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExportUrls(ServiceConfig.java:281) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:242) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.config.spring.AnnotationBean.postProcessAfterInitialization(AnnotationBean.java:195) ~[dubbo-2.5.3.jar:2.5.3]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-4.3.10.RELEASE.jar:4.3.10.RELEASE]
+	... 52 common frames omitted
+Caused by: com.alibaba.dubbo.remoting.RemotingException: Failed to bind NettyServer on /172.26.31.161:20880, cause: Failed to bind to: /0.0.0.0:20880
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:72) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.<init>(NettyServer.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyTransporter.bind(NettyTransporter.java:33) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporter$Adpative.bind(Transporter$Adpative.java) ~[na:2.5.3]
+	at com.alibaba.dubbo.remoting.Transporters.bind(Transporters.java:48) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchanger.bind(HeaderExchanger.java:41) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.exchange.Exchangers.bind(Exchangers.java:63) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol.createServer(DubboProtocol.java:287) ~[dubbo-2.5.3.jar:2.5.3]
+	... 70 common frames omitted
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0.0.0.0:20880
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:303) ~[netty-3.2.5.Final.jar:na]
+	at com.alibaba.dubbo.remoting.transport.netty.NettyServer.doOpen(NettyServer.java:94) ~[dubbo-2.5.3.jar:2.5.3]
+	at com.alibaba.dubbo.remoting.transport.AbstractServer.<init>(AbstractServer.java:67) ~[dubbo-2.5.3.jar:2.5.3]
+	... 77 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_91]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_91]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_91]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.bind(NioServerSocketPipelineSink.java:148) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleServerSocket(NioServerSocketPipelineSink.java:100) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:74) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.bind(Channels.java:468) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.bind(AbstractChannel.java:192) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap$Binder.channelOpen(ServerBootstrap.java:348) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.Channels.fireChannelOpen(Channels.java:176) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:142) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioServerSocketChannelFactory.newChannel(NioServerSocketChannelFactory.java:90) ~[netty-3.2.5.Final.jar:na]
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:282) ~[netty-3.2.5.Final.jar:na]
+	... 79 common frames omitted
+
+2017-12-24 20:47:33.145  INFO 109604 --- [DubboShutdownHook] com.alibaba.dubbo.config.AbstractConfig  :  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:33.147  INFO 109604 --- [DubboShutdownHook] c.a.d.r.support.AbstractRegistryFactory  :  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:33.147  INFO 109604 --- [DubboShutdownHook] c.a.d.rpc.protocol.dubbo.DubboProtocol   :  [DUBBO] Unexport service: dubbo://172.26.31.161:20880/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&dubbo=2.5.3&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119652905&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
+2017-12-24 20:47:33.148  INFO 109604 --- [DubboShutdownHook] c.a.d.rpc.protocol.injvm.InjvmProtocol   :  [DUBBO] Unexport service: injvm://127.0.0.1/org.xxpay.dubbo.api.service.IPayChannel4WxService?anyhost=true&application=xxpay4dubbo-service&dubbo=2.5.3&interface=org.xxpay.dubbo.api.service.IPayChannel4WxService&methods=doWxPayReq,doWxRefundReq,getWxTransReq,doWxTransReq,getWxRefundReq&pid=109604&revision=1.0.0&side=provider&timestamp=1514119652905&version=1.0.0, dubbo version: 2.5.3, current host: 127.0.0.1
